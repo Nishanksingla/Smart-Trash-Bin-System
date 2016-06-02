@@ -1,0 +1,35 @@
+<div class="container" ng-controller="homeController">
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <h4><span class="label label-default">Enter number of Garbage bags</span></h4>
+            <input type="text" name="host" ng-model="numGarbageBags" />
+            <button ng-click="setGarbageBags()" type="button" class="btn btn-sm btn-primary">
+                Set
+            </button>
+        </div>
+        <div class="col-md-3">
+            <h4><span class="label label-default">Current Number of Garbage bags</span></h4>
+            <h4 style="text-align: center;" ng-bind="currentNumBags"></h3>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            
+        </div>
+        <div class="col-md-1">
+            <div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 20px;">
+            
+            <div class="col-md-8">
+                <div id="container">Placeholder for chart</div>
+            </div>
+            <div class="col-md-4">
+                <img src="favicon.jpg" style="height:100px;float:left"/>
+                <p id="predictedText" style="float: left;color: white; border: 1px solid white;padding: 10px;margin-top: 10px;border-radius: 20px;">I expect to be full on Sunday May 15th, 2016.</p>
+            </div>
+        </div>
+    </div>
